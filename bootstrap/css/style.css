@@ -1,0 +1,399 @@
+/* Css custom styles */
+
+body{
+    margin: 0;
+    height: auto;
+    background-color: #999ca7;
+}
+
+.head{
+    background-image: url("images/55.jpg");
+}
+.login{
+    position: absolute;
+    top: 25px;
+    right: 10px;
+    color: white;
+    font-size: 20px;
+}
+.login:hover{
+    color: orangered;
+    font-size: 25px;
+    text-decoration: underline;
+}
+.button-sec{
+    width: 75%;
+    margin: auto!important;
+    position: relative!important;
+    top: 550px;
+    background-color: darkslategrey;
+    border-radius: 30px;
+    opacity: 0.6;
+}
+.login-section{
+    width: 100%;
+    position: absolute!important;
+    top:120px;
+}
+.register{
+    position: absolute;
+    top: 25px;
+    right: 90px;
+    color: white;
+    font-size: 20px;
+}
+.register-main{
+    width: 100%;
+    height: 500px;
+    position: absolute;
+    top: 150px;
+}
+.register:hover{
+    color: orange;
+    font-size: 25px;
+    text-decoration: underline;
+}
+.register-form{
+    width: 800px;
+    height: 500px;
+    background-color: teal;
+    position: relative;
+    left: 200px;
+}
+form{
+    height: 420px;
+}
+table{
+    background-color: #0c5460;
+    width: 800px;
+    height: 435px;
+}
+nav{
+    width: 100%;
+    position: absolute;
+    top: -30px;
+    left: 0;
+    bottom: -155px;
+    height: 50px;
+}
+.main-header{
+   height: 150px;
+    background-color: black;
+}
+.col-md-12.resta{
+    position: absolute;
+    top: 0;
+}
+.drop-A a:hover{
+    color: black!important;
+}
+.dropdown-content{
+    background-color: #ff3547!important;
+    font-weight: 15px!important;
+    text-align: center!important;
+}
+.dropdown-content a:hover {
+    background-color: #ff3547!important;
+    color:white!important;
+    border-radius: 10px!important;
+    font-size: 20px!important;
+}
+.wel-come{
+    height: 30px;
+    line-height: 30px;
+    background-color:  #4c082c;
+    color: whitesmoke;
+    font-size: 20px;
+    font-family: "Gill Sans MT",sans-serif;
+    position: absolute;
+    top: 70px;
+    animation: letest-news 2s infinite linear;
+}
+@keyframes letest-news{
+    0% , 50% , 100%{
+        background-color: #899474;
+    }
+    25% , 75%{
+        background-color: #333725;
+    }
+
+}
+.wel-come p{
+    margin: 0;
+    animation: news 20s infinite linear;
+}
+@keyframes news {
+    0%{
+        transform: translateX(100%);
+    }
+    100%{
+        transform: translateX(-80%);
+    }
+
+}
+.carousel{
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    top: 150px;
+}
+.carousel .carousel-indicators li {
+    max-width: 50px;
+    height: 10px;
+    border-radius: 0% !important;
+    cursor: pointer;
+}
+.carousel-indicators{
+    position: relative;
+    top: 420px;
+    left: 20px;
+}
+.carousel-inner{
+    width: 100%;
+    height: 450px;
+    position: relative;
+    top: -26px;
+    left: -13px;
+    background-color: black;
+}
+.slide{
+    width: 99%;
+    height: 450px;
+    margin: auto;
+    background-color: #999ca7;
+    opacity: integer~!important;
+}
+.carousel-caption{
+    width: 50%;
+    margin: auto;
+    position: absolute;
+    top: 130px;
+    left: 134px;
+    color: white;
+}
+.line1{
+    background-color: goldenrod;
+    width: 150px;
+    height: 2px;
+    position: relative;
+    top: 24px;
+    left: 386px;
+}
+.line2{
+    background-color: goldenrod;
+    width: 150px;
+    height: 2px;
+    position: relative;
+    top: 22px;
+    left: 150px;
+}
+.info{
+    width: 100%;
+    height: 400px;
+    margin: auto;
+    color: white;
+    position: absolute;
+    top: 600px;
+}
+.zoomOut{
+    width: 350px;
+    height: 170px;
+    margin: auto;
+    overflow: hidden;
+    border-radius: 50px 0px 50px 0px;
+    background-color: yellow;
+}
+.zoomOut img{
+    transition: all 1s;
+    opacity: 0.9;
+}
+.zoomOut:hover img{
+    transform: scale(1.2,1.2);
+    cursor: pointer;
+    opacity: 2.0;
+}
+.add-section{
+    height: 150px;
+    position: absolute;
+    top: 1000px;
+    overflow: hidden;
+}
+.Offer{
+    width: 100%;
+    margin: auto!important;
+    height: 700px;
+    position: absolute;
+    top: 1150px;
+    overflow: hidden
+}
+.seeMore{
+    width: 100%;
+    margin: auto!important;
+    height: 150px;
+    position: absolute;
+    top: 1850px;
+    overflow: hidden
+}
+.Special_items{
+    width: 100%;
+    height: 250px;
+    position: absolute;
+    top: 2000px;
+}
+.Special_items img{
+    position: relative;
+    top: 20px;
+    left:  150px;
+}
+.Special_items h2{
+    position: relative;
+    top: -16px;
+    left:  506px;
+    color: #333725;
+    font-size: 2.4em;
+}
+.card-item{
+    position: absolute;
+    top: 2070px;
+    left: 100px;
+}
+.main-footer{
+    width: 100%;
+    height: 80px;
+    background-color: black;
+    position: absolute;
+    top: 2500px;
+
+}
+.foot-head{
+    width: 100%;
+    height: 80px;
+    background-color: #999ca7;
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+    position: relative;
+    top: 0;
+}
+.foot-img{
+    position: relative;
+    top: -70px;
+}
+.footer-s{
+    position: relative;
+    top:-15px;
+}
+/*--- About Us Page----*/
+/*--- AboutUs section----*/
+
+.about-us{
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    top: 100px;
+}
+.about-us h2{
+    position: relative;
+    top: -20px;
+    font-family: "Comic Sans MS",sans-serif;
+}
+.about-cafe{
+    width: 100%;
+    height: 350px;
+    position: absolute;
+    top: 250px;
+}
+.about-cafe img{
+    width: 550px;
+    height: 300px;
+
+}
+/*--- Service Section----*/
+.service-intro{
+    width: 70%;
+    height: 50px;
+    position: absolute;
+    top: 585px;
+    left: 220px;
+    border-radius: 50px;
+    color: whitesmoke;
+    background-color: orange;
+}
+.service-intro h2{
+    position: relative;
+    top: -60px;
+}
+.service-sec{
+    width: 100%;
+    height: 380px;
+    position: absolute;
+    top: 650px;
+}
+.service-detail{
+    width: 100%;
+    position: absolute;
+    top: 1015px;
+}
+.service-detail-h2{
+    width: 60px!important;
+    color: whitesmoke;
+    position: relative;
+    top: -15px;
+    border-radius: 50px;
+}
+.service-detail-sec{
+    width: 100%;
+    height: 700px;
+    position: absolute;
+    top: 1510px;
+}
+.contact-us-intro{
+    width: 100%;
+    height: 50px;
+    color: #0c5460;
+    position: absolute;
+    top: 135px;
+}
+.contact-us-intro h1{
+    position: relative;
+    top: -18px;
+}
+.con-section{
+    width: 100%;
+    height: 400px;
+    position: absolute;
+    top:200px;
+}
+.con-section2{
+    width: 100%;
+    height: 530px;
+    position: absolute;
+    top:590px;
+}
+.address-map{
+    width: 100%;
+    height: 530px;
+    position: absolute;
+    top:1125px;
+}
+.map{
+    position: relative;
+    left: 90px;
+}
+.map-address h1{
+    position: relative;
+    left: -50px!important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
